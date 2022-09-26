@@ -1,0 +1,12 @@
+/* adaptar las imagenes a mi sistema de columnas */
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.flex{
+    display: flex;
+}
+
