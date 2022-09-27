@@ -1,4 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
 /* adaptar las imagenes a mi sistema de columnas */
+
 img{
     width: 100%;
     height: auto;
@@ -9,4 +16,52 @@ img{
 .flex{
     display: flex;
 }
+
+/* Inicio de header */
+
+header{
+ background-color: gray;
+ padding: 20px;
+}
+
+header .container{
+   
+    color: white; /* solo afecta a los texto que no son enlaces*/
+    max-width: 1004px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+header .menu li{
+    display: inline-block;
+}
+
+header .menu li a{
+    border-bottom: 2px solid black;
+    padding: 10px;
+   display: block;
+   margin-right: 10px;
+   transition: 1s ;
+   text-decoration: none;
+   color: white;
+}
+
+header .menu li a:hover{
+    background-color: lightgray;
+    color: black
+}
+
+
+
+
+
+
+
+
+/* Fin de header */
 
